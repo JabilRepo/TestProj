@@ -557,7 +557,7 @@
               "valueSource": "opc"
             },
             {
-              "TimeStampLocal": 1.74590991681E12,
+              "TimeStampLocal": 1.745910835147E12,
               "dataType": "Boolean",
               "enabled": true,
               "eventScripts": [
@@ -3817,7 +3817,7 @@
                     {
                       "name": "Duration",
                       "tagType": "AtomicTag",
-                      "value": 38
+                      "value": 57
                     },
                     {
                       "name": "ActiveID",
@@ -5249,7 +5249,7 @@
                     {
                       "name": "Duration",
                       "tagType": "AtomicTag",
-                      "value": 5903940
+                      "value": 5904859
                     },
                     {
                       "name": "TimeEntered",

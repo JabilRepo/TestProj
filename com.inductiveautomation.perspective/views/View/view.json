@@ -77,6 +77,24 @@
           }
         },
         "type": "ia.chart.chartrangeselector"
+      },
+      {
+        "meta": {
+          "name": "PowerChart"
+        },
+        "position": {
+          "height": 600,
+          "width": 800,
+          "x": 36,
+          "y": 62.5
+        },
+        "props": {
+          "interaction": {
+            "chartZoomLevel": 1,
+            "rangeZoomLevel": 1
+          }
+        },
+        "type": "ia.chart.powerchart"
       }
     ],
     "meta": {
