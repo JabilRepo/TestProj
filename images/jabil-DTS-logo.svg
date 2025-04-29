@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 110" style="enable-background:new 0 0 250 110;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#54C0E8;}
+	.st2{fill:#9CA9FF;}
+</style>
+
+<g id="XMLID_25_">
+	<!--J-->
+	<path class="st0" d="M110,105 m0,-10 v5 q0,5 5,5 h10 q5,0 5,-5 v-20 h-5 v20 h-10 v-7                 "/>
+	
+	<!--A-->
+	<path class="st0" d="M135,105 l15,-25 h5 l15,25 h-5 l-12.5,-20 l-12.5,20                         "/>
+	
+	<!--B-->
+	<path class="st0" d="M175,105 v-25 h20 q5,0 5,5 v2 q0,5,-5,5 q5,0 5,5 v3 q0,5 -5,5  h-15 v-4 h12.5 q2.5,0 2.5,-2.5 v-2 q0,-2.5 -2.5,-2.5 
+		h-12.5 v-4 h12.5 q2.5,0 2.5,-2.5 v-1 q0,-2.5 -2.5,-2.5 h-12.5 v21          "/>
+	
+	<!--I-->
+	<path class="st0" d="M210,105 v-25 h5 v25                         "/>
+	
+	<!--L-->
+	<path class="st0" d="M225,105 v-25 h5 v20 h15 v5                           "/>
+	
+	<!--Acenter-->
+	<path class="st1" d="M135,105 m13.5,-14 h29  l-34.6,9.5        "/>
+
+	<!-- DTS lines -->
+	<!--D-->
+	<path class="st2" d="M23,77 v-71 h20 q15,0 15,15 v41 q0,15 -15,15 h-20 v-71 z
+    M30,66 h10 q5,0 8,-2.5 q2.5,-2.5 2,-10 v-26 q0,-6 -2.5,-7 q-2.5,-2.5 -6,-2.5 h-10 v48 z"/>
+
+	<!--T-->
+	<path class="st2" d="m85,5l40,0l0,10l-21,0l0,60l-10,0l0,-60l-13,0l0,-10zm15,0l10,0l0,70l-10,0l0,-70z" id="svg_8"/>
+
+	<!--S-->
+	<path class="st2" d="M150,75 m0,-17 v5 q0,12 12,12 h26 q12,0 12,-12 v-18 q0,-12 -12,-12 h-21 q-7,0 -7,-7 v-4 q0,-7 7,-7 h16 q7,0 7,7  h10 
+	v-5	q0,-12 -12,-12 h-26 q-12,0 -12,12 v14 q0,12 12,12 h21 q7,0 7,7 v8 q0,7 -7,7 h-16 q-7,0 -7,-7       "/>
+</g>
+</svg>

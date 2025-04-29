@@ -1,0 +1,2493 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "ProjectInfo",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "projectVersion",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "lastModification",
+              "tagType": "AtomicTag",
+              "value": "{\"columns\":[{\"name\":\"AUDIT_EVENTS_ID\",\"type\":\"java.lang.Integer\"},{\"name\":\"EVENT_TIMESTAMP\",\"type\":\"java.util.Date\"},{\"name\":\"ACTOR\",\"type\":\"java.lang.String\"},{\"name\":\"ACTOR_HOST\",\"type\":\"java.lang.String\"},{\"name\":\"ACTION\",\"type\":\"java.lang.String\"},{\"name\":\"ACTION_TARGET\",\"type\":\"java.lang.String\"},{\"name\":\"ACTION_VALUE\",\"type\":\"java.lang.String\"},{\"name\":\"STATUS_CODE\",\"type\":\"java.lang.Integer\"},{\"name\":\"ORIGINATING_SYSTEM\",\"type\":\"java.lang.String\"},{\"name\":\"ORIGINATING_CONTEXT\",\"type\":\"java.lang.Integer\"}],\"rows\":[[17848151,\"Mon Apr 28 12:21:20 BST 2025\",\"edwin\",\"10.4.10.131\",\"resources deleted\",\"DTS_BaseProj\",\"com.inductiveautomation.perspective/views/View\",0,\"sys:BatchSystem:/project:DTS_BaseProj\",2]]}"
+            },
+            {
+              "name": "timeStamp",
+              "tagType": "AtomicTag",
+              "value": 1745843208643
+            },
+            {
+              "name": "currVersion",
+              "tagType": "AtomicTag",
+              "value": 0.27
+            }
+          ],
+          "typeId": "projectVersion"
+        }
+      ]
+    },
+    {
+      "name": "DataSources",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "0522RSA",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "AssemblyAudit",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1015
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 310
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 2566
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:58:59.262"
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:59:04.575"
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    },
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "AssemblyFC",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1011
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "dataType": "DataSet",
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 2456
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag",
+                      "value": 100
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-03-10 09:38:18.544"
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 310
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-03-10 09:38:16.444"
+                    }
+                  ]
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    },
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "Metrology_CapLid",
+              "parameters": {
+                "DbId": {
+                  "dataType": "Integer",
+                  "value": 1013
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "NQList",
+                  "tagType": "AtomicTag",
+                  "value": [
+                    "Dimension_Query",
+                    "Part_Query"
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                }
+              ],
+              "typeId": "DBDatasource"
+            },
+            {
+              "name": "BIC",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1008
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.2321024
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 1
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 2566
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:58:59.282"
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 1
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:59:04.694"
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 302
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "dataType": "String",
+              "name": "DSTriggerType",
+              "tagType": "AtomicTag",
+              "value": "",
+              "valueSource": "memory"
+            },
+            {
+              "name": "Assembly",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1012
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    },
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:58:59.002"
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 2566
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 310
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:59:04.560"
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "BES",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1009
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 310
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag",
+                      "value": 100
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:58:59.274"
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:59:04.597"
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 2566
+                    }
+                  ]
+                },
+                {
+                  "dataType": "DataSet",
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "Metrology",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1010
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 302
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 06:59:04.789"
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 4
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": "2025-04-11 07:00:10.145"
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 2.6130676E-4
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 2566
+                    }
+                  ]
+                },
+                {
+                  "name": "NQList",
+                  "tagType": "AtomicTag",
+                  "value": [
+                    "Dimension_Query",
+                    "Part_Query"
+                  ]
+                }
+              ],
+              "typeId": "DBDatasource"
+            }
+          ]
+        },
+        {
+          "name": "0522FSA",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Assembly",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1004
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "BES",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 2
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag",
+                      "value": 100
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "dataType": "DataSet",
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "dataType": "String",
+              "name": "DSTriggerType",
+              "tagType": "AtomicTag",
+              "value": "",
+              "valueSource": "memory"
+            },
+            {
+              "name": "AssemblyAudit",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1006
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "BIC",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "Metrology",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 3
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "NQList",
+                  "tagType": "AtomicTag",
+                  "value": [
+                    "Dimension_Query",
+                    "Part_Query"
+                  ]
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag",
+                      "value": 2250
+                    },
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 11
+                    }
+                  ]
+                }
+              ],
+              "typeId": "DBDatasource"
+            },
+            {
+              "name": "AssemblyFC",
+              "parameters": {
+                "DBId": {
+                  "dataType": "Integer",
+                  "value": 1003
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    },
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "dataType": "DataSet",
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "filesFailed",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "progress",
+                      "tagType": "AtomicTag",
+                      "value": 100
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "filesDownloaded",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    }
+                  ]
+                }
+              ],
+              "typeId": "FileDatasource"
+            },
+            {
+              "name": "Metrology_CapLid",
+              "parameters": {
+                "DbId": {
+                  "dataType": "Integer",
+                  "value": 1005
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "NQList",
+                  "tagType": "AtomicTag",
+                  "value": [
+                    "Dimension_Query",
+                    "Part_Query"
+                  ]
+                },
+                {
+                  "name": "execFB",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "startTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "recordsFound",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusCode",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "filesSize",
+                      "tagType": "AtomicTag",
+                      "value": 0.0
+                    },
+                    {
+                      "name": "endTime",
+                      "tagType": "AtomicTag",
+                      "value": ""
+                    },
+                    {
+                      "name": "dtsId",
+                      "tagType": "AtomicTag",
+                      "value": 0
+                    },
+                    {
+                      "name": "statusStr",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDetails",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "PRTGConn",
+                  "tagType": "UdtInstance",
+                  "tags": [
+                    {
+                      "name": "connStatus",
+                      "tagType": "AtomicTag",
+                      "value": 3
+                    },
+                    {
+                      "name": "sensID",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ],
+              "typeId": "DBDatasource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "simulation",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "dataType": "Boolean",
+          "name": "hashErrorSim",
+          "tagType": "AtomicTag",
+          "value": false,
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "generateFSAFiles",
+          "tagType": "AtomicTag",
+          "value": false,
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "archiveError",
+          "tagType": "AtomicTag",
+          "value": false,
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "generateRSAFiles",
+          "tagType": "AtomicTag",
+          "value": false,
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "simulateFiles",
+          "tagType": "AtomicTag",
+          "value": false,
+          "valueSource": "memory"
+        }
+      ]
+    },
+    {
+      "name": "AWSConfig",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "dataType": "String",
+          "name": "prvKeyPath",
+          "tagType": "AtomicTag",
+          "value": "C:\\Users\\Administrator.DEV-JABIL\\Desktop\\AWS details\\id_rsa_jabil_ridr_dev.ppk",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "usrName",
+          "tagType": "AtomicTag",
+          "value": "jabil-rdir-dev",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "hKeyFingerPrint",
+          "tagType": "AtomicTag",
+          "value": "ssh-rsa 2048 kFH7mHDLsI/UfTqF1kvkCAfJh6tHK9tuTXLPPYdWQ+E",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "hostIP",
+          "tagType": "AtomicTag",
+          "value": "digital-sftp-aws-emea.sanofi-infra.com",
+          "valueSource": "memory"
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Reprocessing",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "dtsId",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "dataType": "String",
+              "name": "execBatchOM",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "dataType": "String",
+              "name": "execBatchId",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            }
+          ]
+        },
+        {
+          "name": "secCounter",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "enTimer",
+              "tagType": "AtomicTag",
+              "value": false,
+              "valueSource": "memory"
+            },
+            {
+              "name": "secCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "name": "setCount",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "dataType": "DateTime",
+              "eventScripts": [
+                {
+                  "eventid": "valueChanged",
+                  "script": "\tif currentValue.value !\u003d previousValue.value and not(initialChange) :\n\t\tval \u003d system.tag.readBlocking([\"[.]secCount\",\"[.]enCount\",\"[.]setCount\"])\n\t\tsecCount \u003d val[0].value\n\t\tenCount \u003d val[1].value\n\t\tsetTimeSec \u003d val[2].value\n\t\t\n\t\tif secCount \u003c setTimeSec and enCount:\n\t\t\tincVal \u003d secCount+1\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\"], [incVal])\n\t\tif secCount \u003e\u003d setTimeSec and enCount:\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\",\"[.]enCount\"], [0,False])"
+                }
+              ],
+              "formatString": "ss",
+              "name": "currSec",
+              "sourceTagPath": "[System]Gateway/CurrentDateTime",
+              "tagType": "AtomicTag",
+              "valueSource": "reference"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "enCount",
+              "tagType": "AtomicTag",
+              "value": false,
+              "valueSource": "memory"
+            }
+          ],
+          "typeId": ""
+        },
+        {
+          "name": "BES_UDT",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Batch",
+              "parameters": {
+                "LineTagProv": {
+                  "dataType": "Integer"
+                }
+              },
+              "tagType": "UdtType",
+              "tags": [
+                {
+                  "dataType": "String",
+                  "name": "selectedBatchID",
+                  "readOnly": true,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Data/selectedBatchID"
+                  },
+                  "tagType": "AtomicTag",
+                  "value": "",
+                  "valueSource": "reference"
+                },
+                {
+                  "dataType": "DateTime",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "name": "tsBatchStarted_M",
+                  "readOnly": false,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Data/tsBatchStarted"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "DataSet",
+                  "datasource": "SQLSvr_Conn",
+                  "name": "Header",
+                  "query": "SELECT a.[BATCHID] AS [BatchID]\r\n,a.[ITEM_CODE] AS [ItemCode]\r\n,a.[ITEM_DESC] AS [ItemDescription]\t\r\n,a.[QTY]\r\n,a.[DATE_CREATED] AS [CreationTS]\r\n,b.[RecipeNumber]\r\n,a.[CLASS_CODE] AS [ClassCode]\r\n,a.[STATION_LOC] AS [StationID]\r\n,a.[STATION] AS [StationName]\r\n,a.[CREATE_TS] AS [RecordedTS]\r\n,b.[RecipeID]\r\n,b.[RecipeName]\r\n,b.[RecipeDescription]\r\n,b.[LineName]\r\n,b.[MachineName]\r\n,b.[ClientNumber]\r\n,b.[RecordedTS]\r\nFROM [BatchControl].[dbo].[tblBatches] a\r\nINNER JOIN [BatchControl].[dbo].[tblRecipe] b\r\nON a.[ITEM_CODE] \u003d b.RecipeName \r\nWHERE CAST(a.[BATCHID] AS NVARCHAR) LIKE \u0027{[.]selectedBatchID}\u0027",
+                  "queryType": "Select",
+                  "readOnly": true,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Data/Header"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "reference"
+                },
+                {
+                  "dataType": "String",
+                  "name": "strStepCurr",
+                  "readOnly": true,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Sequence/Main/strStepCurr"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "reference"
+                },
+                {
+                  "name": "BatchOM_M",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "Boolean",
+                  "name": "BatchActive",
+                  "readOnly": true,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Sequence/Main/Feedback/BatchActive"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "reference"
+                },
+                {
+                  "dataType": "Int4",
+                  "datasource": "SQLSvr_Conn",
+                  "name": "BatchOM",
+                  "query": "SELECT ISNULL(MAX([BatchOM]),0)+1 FROM [Audit_Trail]\r\nWHERE [BatchID] LIKE \u0027{[.]SelectedBatchID}\u0027",
+                  "readOnly": true,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Data/BatchOM"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "reference"
+                },
+                {
+                  "dataType": "DateTime",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "name": "tsBatchClosed_M",
+                  "readOnly": false,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]Batch/Data/tsBatchClosed"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "name": "BatchID_M",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "Int4",
+                  "name": "iBatchStateMachine",
+                  "readOnly": true,
+                  "sourceTagPath": {
+                    "bindType": "parameter",
+                    "binding": "[{LineTagProv}]ProductionData/iBatchStateMachine"
+                  },
+                  "tagType": "AtomicTag",
+                  "valueSource": "reference"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PRTG_data",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "connStatus",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "documentation": "If values \u003d 0 then it means the source is local directory else respective sensor Id from PRTG application is updated",
+              "name": "sensID",
+              "tagType": "AtomicTag",
+              "value": 0,
+              "valueSource": "memory"
+            }
+          ]
+        },
+        {
+          "name": "FileDatasource",
+          "parameters": {
+            "DBId": {
+              "dataType": "Integer",
+              "value": 0
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "PRTGConn",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "sensID",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "connStatus",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "PRTG_data"
+            },
+            {
+              "name": "execFB",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "dataType": "String",
+                  "formatString": "#,##0.##",
+                  "name": "endTime",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "Float4",
+                  "name": "filesSize",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "statusCode",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "formatString": "#,##0.##",
+                  "name": "startTime",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "expression": "lookup({[~]statusCodes},{[.]statusCode},\u0027\u0027,\u0027Code\u0027,\u0027Status\u0027)",
+                  "name": "statusStr",
+                  "tagType": "AtomicTag",
+                  "valueSource": "expr"
+                },
+                {
+                  "name": "filesFailed",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "expression": "({[.]filesDownloaded}/{[.]recordsFound})*100",
+                  "name": "progress",
+                  "tagType": "AtomicTag",
+                  "valueSource": "expr"
+                },
+                {
+                  "name": "filesDownloaded",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "recordsFound",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                }
+              ]
+            },
+            {
+              "dataType": "DataSet",
+              "datasource": "DTS",
+              "name": "DSDetails",
+              "query": "select * from [tblDatasourceDetails] where dsId \u003d {DbId}",
+              "tagType": "AtomicTag",
+              "valueSource": "db"
+            }
+          ]
+        },
+        {
+          "name": "projectVersion",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "dataType": "Float4",
+              "name": "currVersion",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "dataType": "DataSet",
+              "name": "lastModification",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "dataType": "DateTime",
+              "formatString": "yyyy-MM-dd h:mm:ss aa",
+              "name": "timeStamp",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            }
+          ]
+        },
+        {
+          "name": "BES_Stats",
+          "parameters": {
+            "TagProv": {
+              "dataType": "String"
+            },
+            "pathRejectCounts": {
+              "dataType": "String"
+            },
+            "pathTotalProduced": {
+              "dataType": "String"
+            },
+            "pathValidCounts": {
+              "dataType": "String"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "LineFB",
+              "parameters": {
+                "LineTagProv": {
+                  "dataType": "Integer",
+                  "value": {
+                    "bindType": "parameter",
+                    "binding": "{TagProv}"
+                  }
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "BatchOM_M",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "tsBatchStarted_M",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "selectedBatchID",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Header",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "BatchOM",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "iBatchStateMachine",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "strStepCurr",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "BatchActive",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "tsBatchClosed_M",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "BatchID_M",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "BES_UDT/Batch"
+            },
+            {
+              "name": "TimerTrigger",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "setCount",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "enTimer",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "secCount",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "eventScripts": [
+                    {
+                      "eventid": "valueChanged",
+                      "script": "\tif currentValue.value !\u003d previousValue.value and not(initialChange) :\n\t\tval \u003d system.tag.readBlocking([\"[.]secCount\",\"[.]enCount\",\"[.]setCount\",\"[.]../DC_Triggers/TimerTrig\"])\n\t\tsecCount \u003d val[0].value\n\t\tenCount \u003d val[1].value\n\t\tsetTimeSec \u003d val[2].value\n\t\tmanTrig \u003d val[3].value\n\t\tif secCount \u003c setTimeSec and enCount and manTrig:\n\t\t\tincVal \u003d secCount+1\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\"], [incVal])\n\t\tif secCount \u003e\u003d setTimeSec and enCount and manTrig:\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\",\"[.]enCount\"], [0,False])"
+                    }
+                  ],
+                  "name": "currSec",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "enCount",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "secCounter"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "enAuto",
+              "tagType": "AtomicTag",
+              "value": false,
+              "valueSource": "memory"
+            },
+            {
+              "name": "ExecData",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "dataType": "DateTime",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "name": "tsBatchStarted",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "name": "execLotCode",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "DateTime",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "name": "tsBatchClosed",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "DateTime",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "name": "besBatchEnd",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "statusCode",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "execBatchOM",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "expression": "lookup({[~]statusCodes},{[.]statusCode},\u0027\u0027,\u0027Code\u0027,\u0027Status\u0027)",
+                  "name": "statusStr",
+                  "tagType": "AtomicTag",
+                  "valueSource": "expr"
+                },
+                {
+                  "dataType": "DateTime",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "name": "besBatchStart",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "DataSet",
+                  "name": "materialDataset",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "name": "triggerType",
+                  "tagType": "AtomicTag",
+                  "value": "",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "name": "execBatchId",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "Boolean",
+                  "name": "inProcess",
+                  "tagType": "AtomicTag",
+                  "value": false,
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                }
+              ]
+            },
+            {
+              "name": "LineReprocess",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execBatchId",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execBatchOM",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "Reprocessing"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "autoUpload",
+              "tagType": "AtomicTag",
+              "value": false,
+              "valueSource": "memory"
+            }
+          ],
+          "typeColor": -10719104,
+          "typeId": ""
+        },
+        {
+          "name": "DBDatasource",
+          "parameters": {
+            "DbId": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "PRTGConn",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "sensID",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "connStatus",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "PRTG_data"
+            },
+            {
+              "name": "execFB",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "statusCode",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "recordsFound",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "expression": "lookup({[~]statusCodes},{[.]statusCode},\u0027\u0027,\u0027Code\u0027,\u0027Status\u0027)",
+                  "name": "statusStr",
+                  "tagType": "AtomicTag",
+                  "valueSource": "expr"
+                },
+                {
+                  "dataType": "String",
+                  "formatString": "#,##0.##",
+                  "name": "startTime",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "Float4",
+                  "name": "filesSize",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                },
+                {
+                  "dataType": "String",
+                  "formatString": "#,##0.##",
+                  "name": "endTime",
+                  "tagType": "AtomicTag",
+                  "valueSource": "memory"
+                }
+              ]
+            },
+            {
+              "dataType": "StringArray",
+              "name": "NQList",
+              "tagType": "AtomicTag",
+              "value": [
+                "Test_Query"
+              ],
+              "valueSource": "memory"
+            },
+            {
+              "dataType": "DataSet",
+              "datasource": "DTS",
+              "name": "DSDetails",
+              "query": "select * from [tblDatasourceDetails] where dsId \u003d {DbId}",
+              "tagType": "AtomicTag",
+              "valueSource": "db"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DirectoryConfig",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "dataType": "String",
+          "name": "archiveFolder",
+          "tagType": "AtomicTag",
+          "value": "C:\\DTS_Incoming\\Archive Folder",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "AWSDestPath",
+          "tagType": "AtomicTag",
+          "value": "/in/",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "AWSFolderPath",
+          "tagType": "AtomicTag",
+          "value": "C:\\DTS_Incoming\\Folder to AWS",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "workingDir",
+          "tagType": "AtomicTag",
+          "value": "C:\\\\DTS_Incoming",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "archiveFolderPath",
+          "tagType": "AtomicTag",
+          "value": "Z:\\\\FSA",
+          "valueSource": "memory"
+        }
+      ]
+    },
+    {
+      "name": "PRTGConfig",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "dataType": "String",
+          "name": "prtgHostName",
+          "tagType": "AtomicTag",
+          "value": "10.4.10.242",
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "String",
+          "name": "APIkey",
+          "tagType": "AtomicTag",
+          "value": "WQ2S6N4TCCFY67ASOAPB4HCPHVXY5W7ERNHQAJTHFE\u003d\u003d\u003d\u003d\u003d\u003d",
+          "valueSource": "memory"
+        }
+      ]
+    },
+    {
+      "name": "BESStats",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "0522RSA",
+          "parameters": {
+            "TagProv": {
+              "dataType": "String",
+              "value": "0124RSA"
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "ExecData",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "execLotCode",
+                  "tagType": "AtomicTag",
+                  "value": "847666"
+                },
+                {
+                  "name": "statusCode",
+                  "tagType": "AtomicTag",
+                  "value": 200
+                },
+                {
+                  "name": "besBatchEnd",
+                  "tagType": "AtomicTag",
+                  "value": 1744296603833
+                },
+                {
+                  "name": "statusStr",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "tsBatchStarted",
+                  "tagType": "AtomicTag",
+                  "value": 1744351122799
+                },
+                {
+                  "name": "execBatchId",
+                  "tagType": "AtomicTag",
+                  "value": "83000746"
+                },
+                {
+                  "name": "tsBatchClosed",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "triggerType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "execBatchOM",
+                  "tagType": "AtomicTag",
+                  "value": 80
+                },
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "value": 2566
+                },
+                {
+                  "name": "inProcess",
+                  "tagType": "AtomicTag",
+                  "value": false
+                },
+                {
+                  "name": "materialDataset",
+                  "tagType": "AtomicTag",
+                  "value": "{\"columns\":[{\"name\":\"ItemIssued\",\"type\":\"java.lang.String\"},{\"name\":\"SerialIssued\",\"type\":\"java.lang.String\"},{\"name\":\"LotCode\",\"type\":\"java.lang.String\"},{\"name\":\"Description\",\"type\":\"java.lang.String\"},{\"name\":\"Line\",\"type\":\"java.lang.String\"},{\"name\":\"DataType\",\"type\":\"java.lang.String\"}],\"rows\":[[\"6420110\",\"1.0008E+11\",\"849805\",\"Jupiter Needle Cover Spring\",\"ASRS0522\",\"BIC\"],[\"6420127\",\"1.0008E+11\",\"851045\",\"Jupiter Body\",\"ASRS0522\",\"Metrology\"],[\"6420133\",\"1.0008E+11\",\"847666\",\"Jupiter Cap\",\"ASRS0522\",\"Metrology\"]]}"
+                },
+                {
+                  "name": "besBatchStart",
+                  "tagType": "AtomicTag",
+                  "value": 1744294783607
+                }
+              ]
+            },
+            {
+              "name": "LineReprocess",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "value": 1433
+                },
+                {
+                  "name": "execBatchId",
+                  "tagType": "AtomicTag",
+                  "value": "83000746"
+                },
+                {
+                  "name": "execBatchOM",
+                  "tagType": "AtomicTag",
+                  "value": "68"
+                }
+              ]
+            },
+            {
+              "name": "autoUpload",
+              "tagType": "AtomicTag",
+              "value": true
+            },
+            {
+              "name": "enAuto",
+              "tagType": "AtomicTag",
+              "value": true
+            },
+            {
+              "name": "LineFB",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "tsBatchStarted_M",
+                  "tagType": "AtomicTag",
+                  "value": 1744294783607
+                },
+                {
+                  "name": "Header",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "selectedBatchID",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "BatchOM_M",
+                  "tagType": "AtomicTag",
+                  "value": 80
+                },
+                {
+                  "name": "BatchOM",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "tsBatchClosed_M",
+                  "tagType": "AtomicTag",
+                  "value": 1744296603833
+                },
+                {
+                  "name": "BatchID_M",
+                  "tagType": "AtomicTag",
+                  "value": "83000746"
+                },
+                {
+                  "name": "strStepCurr",
+                  "tagType": "AtomicTag",
+                  "valueSource": "reference"
+                },
+                {
+                  "name": "BatchActive",
+                  "readOnly": false,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "iBatchStateMachine",
+                  "readOnly": false,
+                  "tagType": "AtomicTag",
+                  "value": 0,
+                  "valueSource": "reference"
+                }
+              ]
+            },
+            {
+              "name": "TimerTrigger",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "setCount",
+                  "tagType": "AtomicTag",
+                  "value": 60
+                },
+                {
+                  "name": "secCount",
+                  "tagType": "AtomicTag",
+                  "value": 24
+                },
+                {
+                  "name": "enCount",
+                  "tagType": "AtomicTag",
+                  "value": true
+                },
+                {
+                  "eventScripts": [
+                    {
+                      "eventid": "valueChanged",
+                      "script": "\t\t\n\tif currentValue.value !\u003d previousValue.value and not(initialChange) :\n\t\tval \u003d system.tag.readBlocking([\"[.]secCount\",\"[.]enCount\",\"[.]setCount\",\"[.]enTimer\",\"[.]../LineFB/iBatchStateMachine\"])\n\t\tsecCount \u003d val[0].value\n\t\tenCount \u003d val[1].value\n\t\tsetTimeSec \u003d val[2].value\n\t\tmanTrig \u003d val[3].value\n\t\tbatchState \u003d val[4].value\n\t\tif secCount \u003c setTimeSec and enCount and manTrig and batchState \u003d\u003d 100:\n\t\t\tincVal \u003d secCount+1\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\"], [incVal])\n\t\tif secCount \u003e\u003d setTimeSec and enCount and manTrig and batchState \u003d\u003d 100:\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\",\"[.]enCount\"], [0,False])"
+                    }
+                  ],
+                  "name": "currSec",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "enTimer",
+                  "tagType": "AtomicTag",
+                  "value": false
+                }
+              ]
+            }
+          ],
+          "typeId": "BES_Stats"
+        },
+        {
+          "name": "0522FSA",
+          "parameters": {
+            "TagProv": {
+              "dataType": "String",
+              "value": "TotalLine"
+            },
+            "pathRejectCounts": {
+              "dataType": "String",
+              "value": "0"
+            },
+            "pathTotalProduced": {
+              "dataType": "String",
+              "value": "0"
+            },
+            "pathValidCounts": {
+              "dataType": "String",
+              "value": "0"
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "TimerTrigger",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "eventScripts": [
+                    {
+                      "eventid": "valueChanged",
+                      "script": "\tif currentValue.value !\u003d previousValue.value and not(initialChange) :\n\t\tval \u003d system.tag.readBlocking([\"[.]secCount\",\"[.]enCount\",\"[.]setCount\",\"[.]enTimer\",\"[.]../LineFB/iBatchStateMachine\"])\n\t\tsecCount \u003d val[0].value\n\t\tenCount \u003d val[1].value\n\t\tsetTimeSec \u003d val[2].value\n\t\tmanTrig \u003d val[3].value\n\t\tbatchState \u003d val[4].value\n\t\tif secCount \u003c setTimeSec and enCount and manTrig and batchState \u003d\u003d 100:\n\t\t\tincVal \u003d secCount+1\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\"], [incVal])\n\t\tif secCount \u003e\u003d setTimeSec and enCount and manTrig and batchState \u003d\u003d 100:\n\t\t\tsystem.tag.writeBlocking([\"[.]secCount\",\"[.]enCount\"], [0,False])"
+                    }
+                  ],
+                  "name": "currSec",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "enTimer",
+                  "tagType": "AtomicTag",
+                  "value": false
+                },
+                {
+                  "name": "enCount",
+                  "tagType": "AtomicTag",
+                  "value": true
+                },
+                {
+                  "name": "setCount",
+                  "tagType": "AtomicTag",
+                  "value": 60
+                },
+                {
+                  "name": "secCount",
+                  "tagType": "AtomicTag",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "ExecData",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "execBatchOM",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "triggerType",
+                  "tagType": "AtomicTag",
+                  "value": ""
+                },
+                {
+                  "name": "materialDataset",
+                  "tagType": "AtomicTag",
+                  "value": "{\"columns\":[{\"name\":\"ItemIssued\",\"type\":\"java.lang.String\"},{\"name\":\"SerialIssued\",\"type\":\"java.lang.String\"},{\"name\":\"LotCode\",\"type\":\"java.lang.String\"},{\"name\":\"Description\",\"type\":\"java.lang.String\"},{\"name\":\"Line\",\"type\":\"java.lang.String\"},{\"name\":\"DataType\",\"type\":\"java.lang.String\"}],\"rows\":[[\"6420110\",\"1.0008E+11\",\"849805\",\"Jupiter Needle Cover Spring\",\"ASFS0522\",\"BIC\"],[\"6420127\",\"1.0008E+11\",\"851045\",\"Jupiter Body\",\"ASFS0522\",\"Metrology\"],[\"6420133\",\"1.0008E+11\",\"847666\",\"Jupiter Cap\",\"ASFS0522\",\"Metrology\"]]}"
+                },
+                {
+                  "name": "inProcess",
+                  "tagType": "AtomicTag",
+                  "value": true
+                },
+                {
+                  "name": "statusStr",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "tsBatchClosed",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "execLotCode",
+                  "tagType": "AtomicTag",
+                  "value": ""
+                },
+                {
+                  "name": "tsBatchStarted",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "statusCode",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "besBatchEnd",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "execBatchId",
+                  "tagType": "AtomicTag",
+                  "value": ""
+                },
+                {
+                  "name": "besBatchStart",
+                  "tagType": "AtomicTag",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "enAuto",
+              "tagType": "AtomicTag",
+              "value": true
+            },
+            {
+              "name": "LineFB",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "tsBatchStarted_M",
+                  "tagType": "AtomicTag",
+                  "value": 1743664250163
+                },
+                {
+                  "name": "selectedBatchID",
+                  "readOnly": false,
+                  "tagType": "AtomicTag",
+                  "value": "223235"
+                },
+                {
+                  "name": "Header",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "strStepCurr",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "iBatchStateMachine",
+                  "readOnly": false,
+                  "tagType": "AtomicTag",
+                  "value": 100,
+                  "valueSource": "reference"
+                },
+                {
+                  "name": "BatchActive",
+                  "readOnly": false,
+                  "tagType": "AtomicTag",
+                  "value": true
+                },
+                {
+                  "name": "tsBatchClosed_M",
+                  "tagType": "AtomicTag",
+                  "value": 1743664274200
+                },
+                {
+                  "name": "BatchOM",
+                  "readOnly": false,
+                  "tagType": "AtomicTag",
+                  "value": 0
+                },
+                {
+                  "name": "BatchID_M",
+                  "tagType": "AtomicTag",
+                  "value": "10001234"
+                },
+                {
+                  "name": "BatchOM_M",
+                  "tagType": "AtomicTag",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "autoUpload",
+              "tagType": "AtomicTag",
+              "value": true
+            },
+            {
+              "name": "LineReprocess",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "execBatchId",
+                  "tagType": "AtomicTag",
+                  "value": "83000745"
+                },
+                {
+                  "name": "dtsId",
+                  "tagType": "AtomicTag",
+                  "value": 1440
+                },
+                {
+                  "name": "execBatchOM",
+                  "tagType": "AtomicTag",
+                  "value": "293"
+                }
+              ]
+            }
+          ],
+          "typeId": "BES_Stats"
+        }
+      ]
+    },
+    {
+      "dataType": "DataSet",
+      "name": "statusCodes",
+      "tagType": "AtomicTag",
+      "value": "{\"columns\":[{\"name\":\"Code\",\"type\":\"java.lang.Integer\"},{\"name\":\"Status\",\"type\":\"java.lang.String\"}],\"rows\":[[100,\"Batch data collection initiated\"],[101,\"BE Triggered\"],[102,\"MR Triggered\"],[103,\"Data Collection in progress\"],[104,\"Data Collection success\"],[105,\"Archiving In Progress\"],[106,\"Successfully Archived\"],[107,\"AWS upload in progress\"],[108,\"AWS upload success\"],[300,\"Data Source initiated\"],[301,\"Download In Progress\"],[302,\"Files Created\"],[310,\"No data at source\"],[311,\"Download Failed\"],[312,\"Manual download Initiated\"],[313,\"Exception Acknowledged\"],[200,\"Error in Data Collection\"],[201,\"Error while Archiving\"],[202,\"Error uploading to AWS\"],[199,\"Missed Event\"]]}",
+      "valueSource": "memory"
+    }
+  ]
+}
