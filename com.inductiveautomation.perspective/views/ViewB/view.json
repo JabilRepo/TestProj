@@ -937,6 +937,18 @@
           ]
         },
         "type": "ia.chart.xy"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 160,
+          "width": 136,
+          "x": 417,
+          "y": 127
+        },
+        "type": "ia.display.cylindrical-tank"
       }
     ],
     "meta": {
